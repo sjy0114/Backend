@@ -1,9 +1,8 @@
-package domain;
+package NewJeans.FanCm.domain;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.jpa.internal.util.PessimisticNumberParser;
 
 import java.time.LocalDateTime;
 

@@ -1,4 +1,4 @@
-package domain;
+package NewJeans.FanCm.domain;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -36,7 +36,7 @@ public class Member {
     @Column(length = 10, nullable = false)
     private String email1; // 메일
 
-    @Column(length = 8, nullable = false)
+    @Column(length = 15, nullable = false)
     private String email2; // 메일
 
     @Column(nullable = false)
